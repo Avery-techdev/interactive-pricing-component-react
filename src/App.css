@@ -7,16 +7,20 @@ footer {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 50px;
   font-weight: 800;
   text-align: center;
 }
 
 .App {
+  background-color: hsl(230, 100%, 99%);
   background-image: url("./imgs/bg-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 1440px 470px;
   font-family: "Manrope", sans-serif;
   margin: 0 auto;
   max-width: 1440px;
+  
 }
 
 .header {
@@ -30,6 +34,6 @@ h2 {
 
 .grey-text {
   color: hsl(225, 20%, 60%);
-  font-size: 15px;
+  font-size: 27px;
   text-align: center;
 }
