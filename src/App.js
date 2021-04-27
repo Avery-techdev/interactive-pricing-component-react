@@ -1,4 +1,5 @@
 import React from "react";
+import Pricing from "./Pricing";
 import './App.css';
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <p className="grey-text">
         Sign-up for our 30-day trial. No credit card required.
       </p>
+      <Pricing />
       </div>
       <footer>
        Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8" target="_blank" >Frontend Mentor</a> <br /> <a href="https://github.com/Avery-techdev/interactive-pricing-component-react" target="_blank" >coded</a> by Annabell Hauschild
