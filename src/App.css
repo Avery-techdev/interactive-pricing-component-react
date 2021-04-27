@@ -25,9 +25,9 @@ h2 {
 
 .header {
   background-image: url("./imgs/pattern-circles.svg");
-  background-position: 645px 60px;
+  background-position: 585px 30px;
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 265px;
   color: hsl(227, 35%, 25%);
   padding: 100px 0 50px;
 }
