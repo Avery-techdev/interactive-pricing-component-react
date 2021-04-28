@@ -15,7 +15,7 @@ export default function App() {
       <Pricing />
       </div>
       <footer>
-       Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8" rel="noreferrer" target="_blank"  >Frontend Mentor</a> <br /> <a href="https://github.com/Avery-techdev/interactive-pricing-component-react" target="_blank" >coded</a> by Annabell Hauschild
+       Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8" rel="noreferrer" target="_blank"  >Frontend Mentor</a> <br /> <a href="https://github.com/Avery-techdev/interactive-pricing-component-react" target="_blank" rel="noreferrer" >coded</a> by Annabell Hauschild
       </footer>
     </div>
   );
