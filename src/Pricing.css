@@ -38,6 +38,11 @@ input:checked[type="checkbox"]:before {
   
 }
 
+p::before {
+  content: url(./imgs/icon-check.svg);
+  padding-right: 20px;
+}
+
 .Pricing {
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
@@ -75,4 +80,31 @@ input:checked[type="checkbox"]:before {
   color: hsl(15, 100%, 70%);
   padding: 8px;
   border-radius: 30px;
+}
+
+.row {
+  margin-top: 50px;
+  border-top: 3px solid hsl(230, 100%, 99%);;
+}
+
+.warranty {
+  padding-top: 50px;
+  text-align: left;
+  color: hsl(225, 20%, 60%);
+}
+
+.btn-start {
+  position: relative; 
+  top: 80px;
+  left: 100px;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: hsl(227, 35%, 25%);
+  color: hsl(226, 100%, 87%);
+  font-size: 14px;
+}
+
+.btn-start:hover {
+  color: aliceblue;
 }

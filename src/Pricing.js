@@ -5,13 +5,13 @@ import "./Pricing.css";
 export default function Pricing () {
   return (
     <div className="Pricing shadow">
-      <div class="grey-text d-inline text-start" >
+      <div className="grey-text d-inline text-start" >
        100K PAGEVIEWS
       </div>
-      <div class="dollar d-inline p-0">
+      <div className="dollar d-inline p-0">
         $16.00
       </div>
-      <div class="d-inline grey-text per-month">
+      <div className="d-inline grey-text per-month">
         /month   
       </div>
       <input type="range"/>
@@ -26,8 +26,29 @@ export default function Pricing () {
         <span className="discount">
           25% discount
         </span>
-        
       </div>
+        <div className="row">
+          <div className="warranty col-6">
+            <p>
+              Unlimited websites
+            </p>
+            <p>
+              100% data ownership
+            </p>
+            <p>
+            Email reports
+            </p>
+          </div>
+            <div className="col-6">
+              <button  className="btn btn-start">
+                Start my trial 
+              </button>
+              
+            </div>
+  
+      
+        </div>
+      
     </div>
   )
 }
