@@ -1,3 +1,17 @@
+.pricing-slider-value {
+  display: inline;
+}
+
+.Slider .row {
+  margin-top: 0;
+  border-top: 0;
+}
+
+.Slider .text-start {
+  position: relative;
+  top: 35px;
+}
+
 input[type="range"] {
   width: 100%;
   margin: 30px 0 30px;
@@ -46,15 +60,12 @@ p::before {
 .dollar {
   font-size: 65px;
   font-weight: 800;
-  position: relative;
-  bottom: -14px;
-  right: -120px;
-  text-align: right;
+ 
 }
 
 .per-month {
   position: relative;
-  right: -125px;
+ 
 }
 
 .billing-text {
@@ -64,7 +75,7 @@ p::before {
 }
 
 .text-spacing {
-  margin: 0 30px;
+  margin: 0 50px;
 }
 
 .discount{
