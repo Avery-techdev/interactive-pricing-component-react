@@ -70,6 +70,7 @@ class Slider extends React.Component {
         </div>
       </div>
       <input 
+      className="slider"
         type="range" 
         ref={this.slider} 
         defaultValue={this.state.priceInputValue}
