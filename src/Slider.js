@@ -3,7 +3,6 @@ import React from "react";
 import "./Slider.css";
 
 class Slider extends React.Component {
-
   state = {
     priceInputValue: "0", // initial input value
     priceInput: {         // slider values
@@ -15,11 +14,11 @@ class Slider extends React.Component {
     },
     priceOutput: {        // output values
       plan1: {
-        0: ["8.00"],
-        1: ["12.00"],
-        2: ["16.00"],
-        3: ["24.00"],
-        4: ["36.00"],
+        0: [8],
+        1: [12],
+        2: [16],
+        3: [24],
+        4: [36],
       }
     }
   };
@@ -44,6 +43,12 @@ class Slider extends React.Component {
       : obj[this.state.priceInputValue];
   };
 
+  handleSwitch = e => {
+    if (true) {
+      return (null)
+        
+};
+  }
  
 
   render() {
@@ -57,7 +62,7 @@ class Slider extends React.Component {
         </div>
         <div className="col-6">
           <div className="dollar d-inline p-0">
-            ${this.getPricingData(this.state.priceOutput.plan1, 0)}
+            ${this.getPricingData(this.state.priceOutput.plan1, 0)}.00
           </div>
           <div className="d-inline grey-text per-month">
             /month   
@@ -74,7 +79,7 @@ class Slider extends React.Component {
         <span className="text-spacing">
           Monthly Billing
         </span>
-        <input type="checkbox" className="switch" onChange={this.handleSwitch} />
+        <input type="checkbox" className="switch" onClick={this.handleSwitch} />
         <span className="text-spacing">
           Yearly Billing
         </span>
