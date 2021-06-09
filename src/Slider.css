@@ -50,11 +50,6 @@ input:checked[type="checkbox"]:before {
   left: 30px;
 }
 
-p::before {
-  content: url(./imgs/icon-check.svg);
-  padding-right: 20px;
-}
-
 .dollar {
   font-size: 65px;
   font-weight: 800;

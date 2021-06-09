@@ -75,7 +75,7 @@ class Slider extends React.Component {
         ref={this.slider} 
         defaultValue={this.state.priceInputValue}
         onChange={this.handlePricingSlide}
-      />
+      /> {/* ---build later---
       <div className="billing-text">
         <span className="text-spacing">
           Monthly Billing
@@ -87,7 +87,7 @@ class Slider extends React.Component {
         <span className="discount">
           25% discount
         </span>
-      </div>
+      </div>*/}
     </div>
     
   );
